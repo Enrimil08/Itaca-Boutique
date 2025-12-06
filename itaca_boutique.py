@@ -18,7 +18,7 @@ app = Flask(__name__)
 
 # Configuración de la aplicación
 load_dotenv()
-app.config['SECRET_KEY'] = os.getenv('SECRET_KEY', 'Dgraymanlomejor0810#*')
+app.config['SECRET_KEY'] = os.getenv('SECRET_KEY', 'dev_secret_key')
 app.config['UPLOAD_FOLDER'] = 'static/images'
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB máximo
 app.config['WTF_CSRF_ENABLED'] = True
@@ -594,4 +594,5 @@ if __name__ == '__main__':
     # Inicializar base de datos
     init_db()
     
+
     app.run(debug=True)
