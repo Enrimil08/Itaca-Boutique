@@ -30,4 +30,6 @@
 
 Desarrollado por [Enrique Miller] Full Stack Developer Junior | Especialista en Python & Flask
 
+Link de la aplicacion: https://itaca-boutique1-7ed8c58fa0fa.herokuapp.com/
+
   
